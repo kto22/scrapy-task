@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 4. Запустите парсер:
 ```bash
-python -m scrapy crawl alkoparser_spider
+python -m scrapy crawl alkoparser_spider -O result.json
 ```
 
 ### Через Docker
